@@ -1,50 +1,27 @@
-const Discord = require('discord.js');
-const client = new Discord.Client();
+const { AkairoClient, CommandHandler } = require('discord-akairo');
+const {prefix, token} = require('./config.json')
 
-const {token, prefix} = require('./config.json');
-const fs = require("fs");
+class MyClient extends AkairoClient {
+    constructor() {
+        super({
+            ownerID: ['523713815007854623', '291855108793171969'], // or ['123992700587343872', '86890631690977280']
+        }, {
+            disableEveryone: true
+        });
 
-client.commands = new Discord.Collection();
+        this.commandHandler = new CommandHandler(this, {
+            directory: './commands/',
+            prefix: msg => {
+                // Get prefix here...
+                return prefix;
+            },
+            allowMention: false
+        });
 
-const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
+        this.commandHandler.loadAll();
 
-for (const file of commandFiles) {
-	const command = require(`./commands/${file}`);
-	client.commands.set(command.name, command);
+    }
 }
 
-client.once('ready', () => {
-	console.log('Ready!');
-});
-
-client.on('message', message => {
-	if (!message.content.startsWith(prefix) || message.author.bot) return;
-
-	const args = message.content.slice(prefix.length).split(/ +/);
-	const command = args.shift().toLowerCase();
-
-	if (!client.commands.has(command)) return;
-
-	try {
-		client.commands.get(command).execute(message, args);
-	} catch (error) {
-		console.error(error);
-		message.reply('there was an error trying to execute that command!');
-	}
-});
-
-
+const client = new MyClient();
 client.login(token);
-
-
-client.on("ready", () => {
-    console.log(`Hi, ${client.user.username} is now online!`);
-
-    client.user.setPresence({
-        status: "idle",
-        game: {
-            name: "Currently getting developed",
-            type: "PLAYING"
-        }
-    }); 
-});

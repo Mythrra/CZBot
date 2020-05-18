@@ -5,7 +5,7 @@ module.exports = {
 	name: 'reload',
 	description: 'Reloads a command',
 	args: true,
-    execute(message, args)
+    async execute(message, args)
     {
 
     if(message.member.roles.cache.find(r => r.name === "Winter is Coming" || "Owner")) 

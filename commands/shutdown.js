@@ -1,6 +1,6 @@
 module.exports =
 {
-    async run(client, message, args) {
+    async execute(client, message, args) {
         if(message.author.id != "523713815007854623") return message.channel.send("You're the bot the owner!")
     
         try {
