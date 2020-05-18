@@ -1,33 +1,30 @@
-const discord = require('discord.js');
-const client = new discord.Client();
+const Discord = require('discord.js');
+const client = new Discord.Client();
 
-const token = require('./config.json').token;
+const {token, prefix} = require('./config.json');
+const fs = require("fs");
+
+client.commands = new Discord.Collection();
+
+const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
+
+for (const file of commandFiles) {
+	const command = require(`./commands/${file}`);
+	client.commands.set(command.name, command);
+}
+
 
 client.login(token);
 
-//client.on('ready', () => {
-//     let myGuild = client.guilds.cache.get('Put Server copy ID HERE');
-//     let memberCount = myGuild.memberCount;
-//     let memberCountChannel = myGuild.channels.cache.get('Put Channel Id Here');
-//     memberCountChannel.setName('Member Count: ' + memberCount)
-//     .then(result => console.log(result))
-//     .catch(error => console.log(error));
-// });
 
-// client.on('guildMemberAdd', member => {
-//     let myGuild = client.guilds.cache.get('Put Server copy ID HERE');
-//     let memberCount = myGuild.memberCount;
-//     let memberCountChannel = myGuild.channels.cache.get('Put Channel Id Here');
-//     memberCountChannel.setName('Member Count: ' + memberCount)
-//     .then(result => console.log(result))
-//     .catch(error => console.log(error));
-// });
+client.on("ready", () => {
+    console.log(`Hi, ${client.user.username} is now online!`);
 
-// client.on('guildMemberRemove', member => {
-//     let myGuild = client.guilds.cache.get('Put Server copy ID HERE');
-//     let memberCount = myGuild.memberCount;
-//     let memberCountChannel = myGuild.channels.cache.get('Put Channel Id Here');
-//     memberCountChannel.setName('Member Count: ' + memberCount)
-//     .then(result => console.log(result))
-//     .catch(error => console.log(error));
-// });
+    client.user.setPresence({
+        status: "idle",
+        game: {
+            name: "Currently getting developed",
+            type: "PLAYING"
+        }
+    }); 
+});

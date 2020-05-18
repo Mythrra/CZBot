@@ -1,11 +1,8 @@
-const BaseCommand = require('../../utils/structures/BaseCommand');
-const Discord = require('discord.js')
-module.exports = class MmcancelCommand extends BaseCommand {
-  constructor() {
-    super('mmcancel', 'middlemen', []);
-  }
 
-  run(client, message, args) {
+const Discord = require('discord.js')
+module.exports = {
+
+  execute(client, message, args) {
     if(message.member.roles.cache.find(r => r.name === "Middlemen" || "Moderators" || "Admin" || "Owner"))
         {
         let mmEmbed = new Discord.MessageEmbed()
