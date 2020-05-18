@@ -1,0 +1,425 @@
+        execute(message) 
+        {
+        let embed = new Discord.MessageEmbed()
+        .setColor(orange)
+        .setTitle('LR PHY Androids APT')
+        .addField('Name:', 'Androids')
+        .addField('Output:', '4,115,704')
+        .addField('Partner:', 'PhyCell')
+        .addField('AVG Support:', '10%')
+        .setThumbnail('https://cdn.discordapp.com/attachments/707939491209543741/707992736074170419/card_1018030_thumb.png')
+        .setFooter('CZBot developed by frozensnow#0723 | Credits to the homie Kariru')
+
+        message.channel.send(embed);
+    }
+
+
+
+{
+        let embed = new Discord.MessageEmbed()
+        .setColor(electric_blue)
+        .setTitle('LR Baby APT')
+        .addField('Name:', 'Baby')
+        .addField('Output:', '6,707,012')
+        .addField('Partner:', 'Rildo')
+        .addField('AVG Support:', '86.67%')
+        .setThumbnail('https://cdn.discordapp.com/attachments/707939491209543741/707993393472602225/card_1016400_thumb.png')
+        .setFooter('CZBot developed by frozensnow#0723 | Credits to the homie Kariru')
+
+        message.channel.send(embed);
+
+
+
+let embed = new Discord.MessageEmbed()
+        .setColor(orange)
+        .setTitle('LR Bardock APT')
+        .addField('Name:', 'Bardock')
+        .addField('Output:', '5,213,848')
+        .addField('Partner:', 'Tora')
+        .addField('AVG Support:', '40%')
+        .setThumbnail('https://cdn.discordapp.com/attachments/707939491209543741/707998688550715392/card_1014020_thumb.png')
+        .setFooter('CZBot developed by frozensnow#0723 | Credits to the homie Kariru')
+
+        message.channel.send(embed);
+
+        let embed = new Discord.MessageEmbed()
+        .setColor(red_dark)
+        .setTitle('LR Beerus & Whis APT')
+        .addField('Name:', 'BeerusWhis')
+        .addField('Output:', '6,967,371')
+        .addField('Partner:', 'Beerus')
+        .addField('AVG Support:', '20.37%')
+        .setThumbnail('https://cdn.discordapp.com/attachments/707939491209543741/707990483766345778/card_1013770_thumb.png')
+        .setFooter('CZBot developed by frozensnow#0723 | Credits to the homie Kariru')
+
+        message.channel.send(embed);
+
+
+let aptbluegogetaEmbed = new Discord.MessageEmbed()
+        .setColor(aqua)
+        .setTitle('LR Gogeta Blue APT')
+        .addField('Name:', 'BlueGogeta')
+        .addField('Output:', '8,681,559')
+        .addField('Partner:', 'BlueVegito')
+        .addField('AVG Support:', '19.38%')
+        .setThumbnail('https://cdn.discordapp.com/attachments/707939491209543741/707976712444575825/card_4017970_thumb.png')
+        .setFooter('CZBot developed by frozensnow#0723 | Credits to the homie Kariru')
+
+        message.channel.send(aptbluegogetaEmbed);
+
+let aptbluevegitoEmbed = new Discord.MessageEmbed()
+        .setColor(aqua)
+        .setTitle('LR TEQ Vegito Blue APT')
+        .addField('Name:', 'BlueVegito')
+        .addField('Output:', '8,764,498')
+        .addField('Partner:', 'BlueGogeta')
+        .addField('AVG Support:', '19.38%')
+        .setThumbnail('https://cdn.discordapp.com/attachments/707939491209543741/707976024880840794/card_4017980_thumb.png')
+        .setFooter('CZBot developed by frozensnow#0723 | Credits to the homie Kariru')
+
+        message.channel.send(aptbluevegitoEmbed);
+
+let embed = new Discord.MessageEmbed()
+        .setColor(purple_dark)
+        .setTitle('LR Bojack APT')
+        .addField('Name:', 'Bojack')
+        .addField('Output:', '5,893,193')
+        .addField('Partner:', 'Bojack TUR')
+        .addField('AVG Support:', '40%')
+        .setThumbnail('https://cdn.discordapp.com/attachments/707939491209543741/707992218677411870/card_1012160_thumb.png')
+        .setFooter('CZBot developed by frozensnow#0723 | Credits to the homie Kariru')
+
+        message.channel.send(embed);
+
+
+let aptbrolyEmbed = new Discord.MessageEmbed()
+        .setColor(lime_green)
+        .setTitle('LR Super Saiyan Broly APT')
+        .addField('Name:', 'SSJBroly')
+        .addField('Output:', '13,360,662')
+        .addField('Partner:', 'AGL Turles')
+        .addField('AVG Support:', '74.37%')
+        .setThumbnail('https://cdn.discordapp.com/attachments/707939491209543741/707971699051855912/card_4016880_thumb.png')
+        .setFooter('CZBot developed by frozensnow#0723 | Credits to the homie Kariru')
+
+        message.channel.send(aptbrolyEmbed);
+
+        let aptbrolyEmbed = new Discord.MessageEmbed()
+        .setColor(cyan)
+        .setTitle('LR Broly Trio APT')
+        .addField('Name:', 'SSJBroly')
+        .addField('Output:', '5,159,639')
+        .addField('Partner:', 'Turles')
+        .addField('AVG Support:', '40%')
+        .setThumbnail('https://cdn.discordapp.com/attachments/707939491209543741/708027766565503186/card_1019000_thumb.png')
+        .setFooter('CZBot developed by frozensnow#0723 | Credits to the homie Kariru')
+
+        message.channel.send(aptbrolyEmbed);
+
+        let embed = new Discord.MessageEmbed()
+        .setColor(dark_blue)
+        .setTitle('LR Kale and Caulifla APT')
+        .addField('Name:', 'KaleCaulifla')
+        .addField('Output:', '8,137,252')
+        .addField('Partner:', 'SSJ4 Goku')
+        .addField('AVG Support:', '3.1%')
+        .setThumbnail('https://cdn.discordapp.com/attachments/707939491209543741/707984952951832656/card_1016840_thumb.png')
+        .setFooter('CZBot developed by frozensnow#0723 | Credits to the homie Kariru')
+
+        message.channel.send(embed);
+	
+	let embed = new Discord.MessageEmbed()
+        .setColor(crimson)
+        .setTitle('LR FP Frieza APT')
+        .addField('Name:', 'FPFrieza')
+        .addField('Output:', '6,337,826')
+        .addField('Partner:', 'Cooler')
+        .addField('AVG Support:', '29.8%')
+        .setThumbnail('https://cdn.discordapp.com/attachments/707939491209543741/707999301779062915/card_1015570_thumb.png')
+        .setFooter('CZBot developed by frozensnow#0723 | Credits to the homie Kariru')
+
+        message.channel.send(embed);
+
+        let embed = new Discord.MessageEmbed()
+        .setColor(green_light)
+        .setTitle('LR SSJ Gohan & SSJ Goten APT')
+        .addField('Name:', 'Gobros')
+        .addField('Output:', '7,242,591')
+        .addField('Partner:', 'Bombku')
+        .addField('AVG Support:', '13.33%')
+        .setThumbnail('https://cdn.discordapp.com/attachments/707939491209543741/707991058746703872/card_1019400_thumb.png')
+        .setFooter('CZBot developed by frozensnow#0723 | Credits to the homie Kariru')
+
+        message.channel.send(embed);
+
+        let embed = new Discord.MessageEmbed()
+        .setColor(crimson)
+        .setTitle('LR Super Saiyan God Goku APT')
+        .addField('Name:', 'Godku')
+        .addField('Output:', '7,406,114')
+        .addField('Partner:', 'SSBKK')
+        .addField('AVG Support:', '40%')
+        .setThumbnail('https://cdn.discordapp.com/attachments/707939491209543741/707988611219456080/card_1018250_thumb.png')
+        .setFooter('CZBot developed by frozensnow#0723 | Credits to the homie Kariru')
+
+        message.channel.send(embed);
+
+        let aptgofriezaEmbed = new Discord.MessageEmbed()
+        .setColor('#7df9ff')
+        .setTitle('LR Goku and Frieza APT')
+        .addField('Name: ', 'Gofrieza')
+        .addField('Output:', '15,879,132')
+        .addField('Partner: ', 'TEQ Tien')
+        .addField('AVG Support: ', '86.13%')
+        .setThumbnail('https://cdn.discordapp.com/attachments/707939491209543741/707943014416252958/card_1014970_thumb.png')
+        .setFooter('CZBot developed by frozensnow#0723 | Credits to the homie Kariru')
+
+        message.channel.send(aptgofriezaEmbed);
+
+        let embed = new Discord.MessageEmbed()
+        .setColor(orange)
+        .setTitle('LR Goten and Trunks APT')
+        .addField('Name:', 'GotenTrunks')
+        .addField('Output:', '6,603,437')
+        .addField('Partner:', 'Gotenks')
+        .addField('AVG Support:', '40%')
+        .setThumbnail('https://cdn.discordapp.com/attachments/707939491209543741/708026730320756836/card_1011640_thumb.png')
+        .setFooter('CZBot developed by frozensnow#0723 | Credits to the homie Kariru')
+
+        message.channel.send(embed);
+
+        let embed = new Discord.MessageEmbed()
+        .setColor(crimson)
+        .setTitle('LR GT Trio APT')
+        .addField('Name:', 'GTTrio')
+        .addField('Output:', '7,455,890')
+        .addField('Partner:', 'Kid Gohan')
+        .addField('AVG Support:', '59.67%')
+        .setThumbnail('https://cdn.discordapp.com/attachments/707939491209543741/707989238414704640/card_1016370_thumb.png')
+        .setFooter('CZBot developed by frozensnow#0723 | Credits to the homie Kariru')
+
+        message.channel.send(embed);
+
+        let embed = new Discord.MessageEmbed()
+        .setColor(purple_medium)
+        .setTitle('LR INT Cell APT')
+        .addField('Name:', 'IntCell')
+        .addField('Output:', '4,039,837')
+        .addField('Partner:', 'PhyCell')
+        .addField('AVG Support:', '12.75%')
+        .setThumbnail('https://cdn.discordapp.com/attachments/707939491209543741/707986190732755014/card_1017900_thumb.png')
+        .setFooter('CZBot developed by frozensnow#0723 | Credits to the homie Kariru')
+
+        message.channel.send(embed);
+
+        let aptbrolyEmbed = new Discord.MessageEmbed()
+        .setColor(lime_green)
+        .setTitle('LR STR LSSJ Broly APT')
+        .addField('Name:', 'LSSJBroly')
+        .addField('Output:', '7,401,683')
+        .addField('Partner:', 'SSJ Broly')
+        .addField('AVG Support:', '40%')
+        .setThumbnail('https://cdn.discordapp.com/attachments/707939491209543741/708024618409000960/card_1010440_thumb.png')
+        .setFooter('CZBot developed by frozensnow#0723 | Credits to the homie Kariru')
+
+        message.channel.send(aptbrolyEmbed);
+
+        let embed = new Discord.MessageEmbed()
+        .setColor(blue_light)
+        .setTitle('LR Majin Vegeta APT')
+        .addField('Name:', 'MV')
+        .addField('Output:', '7,088,345')
+        .addField('Partner:', 'EZA SSB Vegeta')
+        .addField('AVG Support:', '40%')
+        .setThumbnail('https://cdn.discordapp.com/attachments/707939491209543741/707989836077989953/card_1010160_thumb.png')
+        .setFooter('CZBot developed by frozensnow#0723 | Credits to the homie Kariru')
+
+        message.channel.send(embed);
+
+        let embed = new Discord.MessageEmbed()
+        .setColor(red_dark)
+        .setTitle('LR Nappa APT')
+        .addField('Name:', 'Nappa')
+        .addField('Output:', '3,661,068')
+        .addField('Partner:', 'AGL Turles')
+        .addField('AVG Support:', '40%')
+        .setThumbnail('https://cdn.discordapp.com/attachments/707939491209543741/707991058746703872/card_1019400_thumb.png')
+        .setFooter('CZBot developed by frozensnow#0723 | Credits to the homie Kariru')
+
+        message.channel.send(embed);
+
+        let embed = new Discord.MessageEmbed()
+        .setColor(orange)
+        .setTitle('LR PHY Cell APT')
+        .addField('Name:', 'PhyCell')
+        .addField('Output:', '5,070,039')
+        .addField('Partner:', 'IntCell')
+        .addField('AVG Support:', '40%')
+        .setThumbnail('https://cdn.discordapp.com/attachments/707939491209543741/707997400811307008/card_1014940_thumb.png')
+        .setFooter('CZBot developed by frozensnow#0723 | Credits to the homie Kariru')
+
+        message.channel.send(embed);
+
+        let embed = new Discord.MessageEmbed()
+        .setColor(hot_pink)
+        .setTitle('LR Super Saiyan Rose Goku Black APT')
+        .addField('Name:', 'Rose')
+        .addField('Output:', '9,487,499')
+        .addField('Partner:', 'Scouter Vegeta')
+        .addField('AVG Support:', '29.99%')
+        .setThumbnail('https://cdn.discordapp.com/attachments/707939491209543741/707982030507475054/card_1018880_thumb.png')
+        .setFooter('CZBot developed by frozensnow#0723 | Credits to the homie Kariru')
+
+        message.channel.send(embed);
+
+        let aptrosemasuEmbed = new Discord.MessageEmbed()
+        .setColor(lime_green)
+        .setTitle('LR Rosemasu APT')
+        .addField('Name:', 'Rosemasu')
+        .addField('Output:', '5,720,173')
+        .addField('Partner:', 'Str rose')
+        .addField('AVG Support:', '40%')
+        .setThumbnail('https://cdn.discordapp.com/attachments/707939491209543741/708024719340863611/card_1011140_thumb.png')
+        .setFooter('CZBot developed by frozensnow#0723 | Credits to the homie Kariru')
+
+        message.channel.send(aptrosemasuEmbed);
+
+        let embed = new Discord.MessageEmbed()
+        .setColor(blue_dark)
+        .setTitle('LR Super Saiyan 2 Gohan APT')
+        .addField('Name:', 'SSJ2Gohan')
+        .addField('Output:', '6,089,766')
+        .addField('Partner:', 'LR Trunks')
+        .addField('AVG Support:', '40%')
+        .setThumbnail('https://cdn.discordapp.com/attachments/707939491209543741/708025887274303588/card_1010070_thumb.png')
+        .setFooter('CZBot developed by frozensnow#0723 | Credits to the homie Kariru')
+
+        message.channel.send(embed);
+
+        let embed = new Discord.MessageEmbed()
+        .setColor(lime_green)
+        .setTitle('LR Super Saiyan 3 Goku APT')
+        .addField('Name:', 'SSJ3Goku')
+        .addField('Output:', '7,611,195')
+        .addField('Partner:', 'SSJ3 Bardock')
+        .addField('AVG Support:', '19.53%')
+        .setThumbnail('https://cdn.discordapp.com/attachments/707939491209543741/707984952951832656/card_1016840_thumb.png')
+        .setFooter('CZBot developed by frozensnow#0723 | Credits to the homie Kariru')
+
+        message.channel.send(embed);
+
+        let aptssj4gokuEmbed = new Discord.MessageEmbed()
+        .setColor(crimson)
+        .setTitle('LR Super Saiyan 4 Goku APT')
+        .addField('Name:', 'SSJ4Goku')
+        .addField('Output:', '11,817,876')
+        .addField('Partner:', 'AGL Pan')
+        .addField('AVG Support:', '38.66%')
+        .setThumbnail('https://cdn.discordapp.com/attachments/707939491209543741/707973486513225788/card_1014210_thumb.png')
+        .setFooter('CZBot developed by frozensnow#0723 | Credits to the homie Kariru')
+
+        message.channel.send(aptssj4gokuEmbed);
+
+        let aptssj4vegetaEmbed = new Discord.MessageEmbed()
+        .setColor(crimson)
+        .setTitle('LR Super Saiyan 4 Vegeta APT')
+        .addField('Name:', 'SSJ4Vegeta')
+        .addField('Output:', '8,782,867')
+        .addField('Partner:', 'STR SSJ4 Goku')
+        .addField('AVG Support:', '29.41%')
+        .setThumbnail('https://cdn.discordapp.com/attachments/707939491209543741/707973917309927464/card_1014220_thumb.png')
+        .setFooter('CZBot developed by frozensnow#0723 | Credits to the homie Kariru')
+
+        message.channel.send(aptssj4vegetaEmbed);
+
+        let embed = new Discord.MessageEmbed()
+        .setColor(orange)
+        .setTitle('LR Super Saiyan Gogeta APT')
+        .addField('Name:', 'SSJGogeta')
+        .addField('Output:', '5,709,584')
+        .addField('Partner:', 'Bombku')
+        .addField('AVG Support:', '5.95%')
+        .setThumbnail('https://cdn.discordapp.com/attachments/707939491209543741/707987230328881282/card_4012930_thumb.png')
+        .setFooter('CZBot developed by frozensnow#0723 | Credits to the homie Kariru')
+
+        message.channel.send(embed);
+
+        let embed = new Discord.MessageEmbed()
+        .setColor(blue_dark)
+        .setTitle('LR Super Saiyan Gohan APT')
+        .addField('Name:', 'SSJGohan')
+        .addField('Output:', '4,066,058')
+        .addField('Partner:', 'Floater')
+        .addField('AVG Support:', '11.42%')
+        .setThumbnail('https://cdn.discordapp.com/attachments/707939491209543741/707987818642800680/card_1017630_thumb.png')
+        .setFooter('CZBot developed by frozensnow#0723 | Credits to the homie Kariru')
+
+        message.channel.send(embed);
+
+        let embed = new Discord.MessageEmbed()
+        .setColor(dark_blue)
+        .setTitle('LR AGL Super Saiyan Goku APT')
+        .addField('Name:', 'SSJGoku/Bombku')
+        .addField('Output:', '8,283,507')
+        .addField('Partner:', 'LR Gogeta')
+        .addField('AVG Support:', '4% 8.1 orbs')
+        .setThumbnail('https://cdn.discordapp.com/attachments/707939491209543741/707983093583183974/card_1018490_thumb.png')
+        .setFooter('CZBot developed by frozensnow#0723 | Credits to the homie Kariru')
+
+        message.channel.send(embed);
+
+        let embed = new Discord.MessageEmbed()
+        .setColor(purple_dark)
+        .setTitle('LR Super Saiyan Vegito APT')
+        .addField('Name:', 'SSJVegito')
+        .addField('Output:', '4,135,592')
+        .addField('Partner:', 'Floater')
+        .addField('AVG Support:', '10%')
+        .setThumbnail('https://cdn.discordapp.com/attachments/707939491209543741/707998224480337950/card_4012900_thumb.png')
+        .setFooter('CZBot developed by frozensnow#0723 | Credits to the homie Kariru')
+
+        message.channel.send(embed);
+
+        let embed = new Discord.MessageEmbed()
+        .setColor(orange)
+        .setTitle('LR Super Saiyan Trunks APT')
+        .addField('Name:', 'Trunks')
+        .addField('Output:', '5,554,552')
+        .addField('Partner:', 'Eza Trunks')
+        .addField('AVG Support:', '40%')
+        .setThumbnail('https://cdn.discordapp.com/attachments/707939491209543741/708025992643608646/card_1011720_thumb.png')
+        .setFooter('CZBot developed by frozensnow#0723 | Credits to the homie Kariru')
+
+        message.channel.send(embed);
+
+        let embed = new Discord.MessageEmbed()
+        .setColor(orange)
+        .setTitle('LR Trunks and Mai APT')
+        .addField('Name:', 'TrunksMai')
+        .addField('Output:', '5,931,289')
+        .addField('Partner:', 'Trunks and Mai')
+        .addField('AVG Support:', '40%')
+        .setThumbnail('https://cdn.discordapp.com/attachments/707939491209543741/708027308560351282/card_1014080_thumb.png')
+        .setFooter('CZBot developed by frozensnow#0723 | Credits to the homie Kariru')
+
+        message.channel.send(embed);
+
+		if (!message.mentions.users.size) {
+			return message.channel.send(`Your avatar: ${message.author.displayAvatarURL({ dynamic: true })}`);
+		}
+
+		const avatarList = message.mentions.users.map(user => {
+			return `${user.username}'s avatar: ${user.displayAvatarURL({ dynamic: true })}`;
+		});
+
+		message.channel.send(avatarList);
+
+
+if(message.author.id != "523713815007854623") return message.channel.send("You're the bot the owner!")
+    
+        try {
+            await message.channel.send("Bot is shutting down...")
+            process.exit()
+        } catch(e) {
+            message.channel.send(`ERROR: ${e.message}`)
+

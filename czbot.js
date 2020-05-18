@@ -1,4 +1,4 @@
-const { AkairoClient, CommandHandler } = require('discord-akairo');
+const {AkairoClient, CommandHandler, InhibitorHandler, ListenerHandler} = require('discord-akairo');
 const {prefix, token} = require('./config.json')
 
 class MyClient extends AkairoClient {
@@ -18,7 +18,21 @@ class MyClient extends AkairoClient {
             allowMention: false
         });
 
+        this.inhibitorHandler = new InhibitorHandler(this, {
+            directory: './inhibitors/'
+        });
+
+        this.listenerHandler = new ListenerHandler(this, {
+            directory: './listeners/'
+        });
+
         this.commandHandler.loadAll();
+
+        this.commandHandler.useInhibitorHandler(this.inhibitorHandler);
+        this.inhibitorHandler.loadAll();
+
+        this.commandHandler.useListenerHandler(this.listenerHandler);
+        this.listenerHandler.loadAll();
 
     }
 }
