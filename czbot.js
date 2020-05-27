@@ -1,5 +1,6 @@
-const {AkairoClient, CommandHandler, InhibitorHandler, ListenerHandler} = require('discord-akairo');
+const {AkairoClient, CommandHandler, InhibitorHandler, ListenerHandler, SQLiteProvider, SequelizeProvider} = require('discord-akairo');
 const {prefix, token} = require('./config.json')
+
 
 class MyClient extends AkairoClient {
     constructor() {
@@ -15,7 +16,7 @@ class MyClient extends AkairoClient {
                 // Get prefix here...
                 return prefix;
             },
-            allowMention: false
+            allowMention: true
         });
 
         this.inhibitorHandler = new InhibitorHandler(this, {
@@ -33,9 +34,7 @@ class MyClient extends AkairoClient {
 
         this.commandHandler.useListenerHandler(this.listenerHandler);
         this.listenerHandler.loadAll();
-
     }
 }
-
 const client = new MyClient();
 client.login(token);
