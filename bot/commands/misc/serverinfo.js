@@ -1,6 +1,6 @@
 const { Command } = require('discord-akairo');
 const {MessageEmbed} = require('discord.js')
-const colors = require('../colors.json');
+const colors = require('../../colors.json');
 
 class ServerinfoCommand extends Command {
     constructor() {
