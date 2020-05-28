@@ -22,6 +22,7 @@ class MMCancelCommand extends Command {
         let embed = new MessageEmbed()
         .setThumbnail(message.guild.iconURL({size: 1024, dynamic: true}))
         .setFooter('CZBot developed by frozensnow')
+        .setTimestamp()
         .setTitle('Trade/Sale Cancelled')
         .addField('You may now ping middlemen /talk in this channel.')
 
