@@ -10,7 +10,7 @@ class MMCancelCommand extends Command {
 
     exec(message) {
         let embed = new MessageEmbed()
-        .setThumbnail('https://cdn.discordapp.com/attachments/631038745893666816/707356104681717820/pfp-server.gif', {dynamic: true})
+        .setThumbnail(message.guild.iconURL({size: 1024, dynamic: true}))
         .setFooter('CZBot developed by frozensnow')
         .setTitle('Trade/Sale Cancelled')
         .addField('You may now ping middlemen /talk in this channel.')
