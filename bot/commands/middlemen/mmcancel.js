@@ -8,6 +8,16 @@ class MMCancelCommand extends Command {
         });
     }
 
+    userPermissions(message) {
+        if (!message.member.roles.cache.some(role => role.name === 'Moderator' || 'Middlemen' || 'Admin' || 'Owner')) {
+            return 'Moderator' || 'Middlemen' || 'Admin' || 'Owner';
+        }
+
+        return null;
+    }
+
+
+
     exec(message) {
         let embed = new MessageEmbed()
         .setThumbnail(message.guild.iconURL({size: 1024, dynamic: true}))

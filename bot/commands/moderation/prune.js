@@ -24,6 +24,14 @@ class PruneCommand extends Command {
 		});
 	}
 
+	userPermissions(message) {
+        if (!message.member.roles.cache.some(role => role.name === 'Moderator' || 'Admin' || 'Owner')) {
+            return 'Moderator' || 'Admin' || 'Owner';
+        }
+
+        return null;
+    }
+
 	async exec (message, args) {
 		const channel = message.channel;
 		const count = args.count;

@@ -19,7 +19,7 @@ class UserinfoCommand extends Command {
             .setThumbnail(message.author.avatarURL({dynamic: true}))
             .setFooter('CZBot developed by frozensnow', message.author.avatarURL({dynamic: true}))
             .setTitle('User Info')
-            .setAuthor(`${message.author.name}\'s Info`, message.author.avatarURL({dynamic: true}))
+            .setAuthor(`${message.author.username}\'s Info`, message.author.avatarURL({dynamic: true}))
             .addField("**Username:**", `${message.author.username}`, true)
             .addField("**ID:**", `${message.author.id}`, true)
             .addField("**Status:**", `${message.author.presence.status}`, true)
