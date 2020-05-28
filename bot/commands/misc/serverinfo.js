@@ -19,6 +19,7 @@ class ServerinfoCommand extends Command {
         .addField("**Member Count:**", `${message.guild.memberCount}`, true)
         .addField("**Guild Owner:**", `${message.guild.owner}`, true)
         .addField("**Guild Name:**", `${message.guild.name}`, true)
+        .setTimestamp()
 
         return message.channel.send(embed)
     }

@@ -25,6 +25,7 @@ class UserinfoCommand extends Command {
             .addField("**Status:**", `${message.author.presence.status}`, true)
             .addField("**Discriminator:**", `${message.author.discriminator}`, true)
             .addField("**Created At:**", `${message.author.createdAt}`, true)
+            .setTimestamp()
     
             return message.channel.send(embed)
         }
@@ -41,6 +42,7 @@ class UserinfoCommand extends Command {
             .addField("**Status:**", `${user.presence.status}`, true)
             .addField("**Discriminator:**", `${user.discriminator}`, true)
             .addField("**Created At:**", `${user.createdAt}`, true)
+            .setTimestamp()
     
             return message.channel.send(embed)
         }
