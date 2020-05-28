@@ -2,9 +2,9 @@ const { Listener } = require('discord-akairo');
 
 class guildMemberAddListener extends Listener {
 	constructor () {
-		super('ready', {
+		super('guildMemberAdd', {
 			emitter: 'client',
-			event: 'ready',
+			event: 'guildMemberAdd',
 			category: 'client'
 		});
 	}

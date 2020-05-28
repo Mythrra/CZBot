@@ -2,9 +2,9 @@ const { Listener } = require('discord-akairo');
 
 class guildMemberRemoveListener extends Listener {
 	constructor () {
-		super('ready', {
+		super('guildMemberRemove', {
 			emitter: 'client',
-			event: 'ready',
+			event: 'guildMemberRemove',
 			category: 'client'
 		});
 	}
