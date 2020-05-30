@@ -22,5 +22,5 @@
     "sequelize": "^5.21.9",
     "sqlite": "^3.0.3",
     "typescript": "^3.9.3"
-  } 
+  }
 }
